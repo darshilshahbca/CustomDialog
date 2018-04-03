@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void showDialog() {
 
+        DataEntryDialog dialog = new DataEntryDialog();
+        dialog.show(getSupportFragmentManager(), "DIALOG_FRAGMENT");
+
     }
 
 }
